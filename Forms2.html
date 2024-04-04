@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Simple HTML Form</title>
+
+</head>
+<body>
+    <header>
+        <h2>Student Examination Form</h2>
+        <h3>Please Fill up the Form carefully:</h3>
+
+    </header>
+    <main>
+        <form action="/action.php">
+            <div>
+                <h4>Email : </h4> <input type="email" placeholder="Please enter the Email" name="email">
+            </div>
+            <hr>
+            <div>
+                <h4>Name(CAPITAL LETTERS) : </h4> <input type="text" placeholder="Please Enter your Name" name="Name">
+            </div>
+            <hr>
+            <div>
+            <div>
+                <h4>College/Institute Name :</h4>
+                <select name="College/Institute" id="College/Instiute">
+                    <option value="T.P.S College">T.P.S</option>
+                    <option value="R.K.D College">R.K.D</option>
+                    <option value="ORIENTAL College">ORIENTAL COLLEGE</option>
+                    <option value="G.G.S College">G.G.S College</option>
+                    <option value="CIMAGE Institute">CIMAGE Institute</option>
+                    <option value="A.N College">A.N College</option>
+                </select>
+            </div>
+                <h4>Programme : </h4> 
+
+                <input type="radio" value="BCA" name="Programme" id="BCA"> 
+                <label for="BCA"> BCA</label>
+                <br>
+                <br>
+                 <input type="radio" value="B.Sc" name="Programme" id="B.Sc"> 
+                 <label for="B.Sc"> B.Sc</label>
+                <br>
+                <br>
+                 <input type="radio" value="B.com" name="Programme" id="B.com"> 
+                 <label for="B.com"> B.Com</label>
+                <br>
+                <br>
+                 <input type="radio" value="BA" name="Programme" id="BA"> 
+                 <label for="BA"> BA</label>
+                <br>
+                <br>
+                </div>
+                <hr>
+                <div>
+                    <h4>Enrollment Number : <input type="number" name="EnrollmentNumber" id="E_num"></h4>
+                </div>
+                <div>
+                    <h4>Mobile Number :  <input type="number" name="Mobilenumber"   id="M_num"></h4>
+                </div>
+                <div>
+                    <hr>
+                    <h4>Please Select your Courses : </h4>
+
+
+                       <label><input type="checkbox" name="Courses" > BCSL-013  </label><br>
+                       <label><input type="checkbox" name="Courses" > BSCL-021  </label> <br>
+                       <label><input type="checkbox" name="Courses" > BCSL-022  </label> <br>
+                       <label> <input type="checkbox" name="Courses" > BSCL-032 </label> <br>
+                       <label> <input type="checkbox" name="Courses" > BSCL-033 </label> <br>
+                        <label><input type="checkbox" name="Courses" > BSCL-034 </label> <br>
+                        <label> <input type="checkbox" name="Courses" > BSCL-016 </label> <br>
+                        <label> <input type="checkbox" name="Courses" > BSCL-043 </label> <br>
+                        <label> <input type="checkbox" name="Courses" > BSCL-044 </label> <br>
+                        <label><input type="checkbox" name="Courses" > BSCL-045 </label> <br>
+                        <label> <input type="checkbox" name="Courses" > BSCL-056 </label> <br>
+                        <label><input type="checkbox" name="Courses" > BSCL-057 </label> <br>
+                    
+                    
+                </div>
+                <hr>
+                <div>
+                    <p>Practical component is compulsory for all the learners to complete the 75% attendence in practical sessions of any programme.</p>
+                    <h4>Are you willing to attend the practical sessions for TEE June 2024?</h4>
+
+      
+                    <input type="radio" id="Yes" name="Answer">
+                    <label for="Yes"> Yes</label>
+                    <br>
+                    <br>
+                    <input type="radio" name="Answer" id="No">
+                    <label for="No"> No</label>
+
+                </div>
+                <br>
+                <hr>
+                <div>
+                    <h4>Please Ask if you have any further questions :-</h4> <br>
+                    <textarea name="Feedback" id="F" cols="50" rows="5"></textarea>
+                    <br>
+                    <input type="submit" name="SUBMITTED" id=""> 
+                    <input type="reset" name="reset">
+                
+                </div>
+
+        </form>
+
+
+
+
+    </main>
+      
+</body>
+</html>
